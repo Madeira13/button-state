@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button</title>
+
+	<link rel="stylesheet" href="md-button.css">
+	
+	<style>
+		body{
+	
+			background: #eeeeee;
+		}
+
+		p{
+
+			padding: 15px;
+
+		}
+
+		.layout {
+
+			padding-left:50%;
+			padding-top: 55px;
+
+		}
+
+		.md-button.hover {
+
+			background-color: #b0aaaa;
+			box-shadow: 5px 10px 30px #484747;
+			outline: 0;
+
+		}
+
+		.md-button.active {
+	
+			background-color: #827a7a;
+			box-shadow: 5px 10px 22px #544F4F;
+
+		}
+
+		.md-button.disabled {
+	
+			opacity: 0.8;
+			box-shadow: 0px 0px 0px #544F4F;
+
+		}
+		.md-button.focus{
+
+			background: #A4A4A4;
+
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+
+	<div class="layout">
+
+	<p>
+	<button class="md-button" type="submit" name="Normal" > Normal </button>
+	</p>
+
+	<p>
+	<button class="md-button hover" type="submit" name="houver" > Houver  </button>
+	</p>
+
+	<p>
+	<button class="md-button focus" type="submit" name="focused" > focused  </button>
+	</p>
+
+	<p>
+	<button class="md-button active" type="submit" name="pressed" >Pressed </button>
+	</p>
+
+	<p>
+	<button disabled="disabled" class="md-button disabled " type="submit" name="disabled" >Disabled </button>
+	</p>
+
+	</div>
+
+</body>
+</html>

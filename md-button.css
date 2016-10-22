@@ -1,0 +1,52 @@
+
+.md-button {
+
+	background-color: #B0AAAA;
+	border: 0;
+	border-radius: 8px;
+	padding: 40px 80px ;
+	line-height: normal;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0px 5px 12px #655E5E;
+	outline: 0;
+	transition: background .2s, box-shadow .2s ;
+
+}
+
+
+
+.md-button:hover {
+
+	background-color: #b0aaaa;
+	box-shadow: 5px 8px 10px #484747;
+	outline: 0;
+	cursor: pointer;
+
+}
+
+.md-button:active {
+	
+	background-color: #827a7a;
+	box-shadow: 5px 9px 22px #544F4F;
+	
+}
+
+.md-button:disabled {
+	
+	opacity: 0.8;
+	box-shadow: 0px 0px 0px #544F4F;
+	cursor: not-allowed;
+
+
+}
+
+.md-button:focus{
+
+	background: #A4A4A4;
+
+}
+
+
+ª
